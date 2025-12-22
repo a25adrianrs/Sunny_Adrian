@@ -11,9 +11,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Terrain
+  - Deco
+  - Platforms
   - 
   - 
   - 
@@ -43,6 +43,18 @@ TagManager:
     locked: 0
   - name: Paralax
     uniqueID: 1698712561
+    locked: 0
+  - name: Ma
+    uniqueID: 1390227467
+    locked: 0
+  - name: Deco
+    uniqueID: 1701386069
+    locked: 0
+  - name: Terrain
+    uniqueID: 481628631
+    locked: 0
+  - name: Platforms
+    uniqueID: 1965856475
     locked: 0
   m_RenderingLayers:
   - Default
