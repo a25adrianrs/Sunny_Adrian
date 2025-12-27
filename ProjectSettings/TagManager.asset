@@ -14,8 +14,8 @@ TagManager:
   - Terrain
   - Deco
   - Platforms
-  - 
-  - 
+  - Traps
+  - Player
   - 
   - 
   - 
@@ -55,6 +55,12 @@ TagManager:
     locked: 0
   - name: Platforms
     uniqueID: 1965856475
+    locked: 0
+  - name: Traps
+    uniqueID: 1774282443
+    locked: 0
+  - name: Player
+    uniqueID: 2947089243
     locked: 0
   m_RenderingLayers:
   - Default
