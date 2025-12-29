@@ -60,10 +60,18 @@ public class PlayerController : MonoBehaviour
 
     void Jump()
     {
-        if (jump)
-        {
-            jump = false;
-            rb.linearVelocity += new Vector2(0, jumpSpeed);
-        }
+        // Si no se pulso la tecla de salto, automaticamente salimos del metodo
+        if (!jump) return;
+
+        jump = false;
+        // Si estoy intentando saltar pero no estamos tocando ninguno de los objetos 
+        // de las capas indicadas, entonces tambien salimos del metodo.
+        if (!col.IsTouchingLayers(LayerMask.GetMask("Terrain", "Platforms")))
+            return;
+
+
+        rb.linearVelocity += new Vector2(0, jumpSpeed);
+
     }
 }
+
