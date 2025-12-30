@@ -9,12 +9,16 @@ public class PlayerController : MonoBehaviour
     // Para implementar el salto y detectar si el personaje esta tocando una de las capas (IsTouchingLayers),
     // necesitamos obtener una referencia al collider
     Collider2D col;
+
+    // Referencia de animator que usaremos para poder acceder a los parametros de animación definidos
+    Animator anim;
     float moveX;
     bool jump;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<Collider2D>();
+        anim = GetComponent<Animator>();
     }
 
     void FixedUpdate()
@@ -47,8 +51,14 @@ public class PlayerController : MonoBehaviour
 
     void Run()
     {
-        Vector2 vel1 = new Vector2(moveX * speed * Time.deltaTime, rb.linearVelocity.y);
+
+        Vector2 vel1 = new Vector2(moveX * speed * Time.fixedDeltaTime, rb.linearVelocity.y);
         rb.linearVelocity = vel1;
+        // Cuando la velocidad del personaje sea mayor que "0" , accederemos al componente 
+        // animator para cargar la animación de correr de nuestro personaje
+        // Establecemos el valor booleano de isRunning a "true" ó "false" en función
+        // de la condición
+        anim.SetBool("isRunning", Mathf.Abs(rb.linearVelocity.x) > Mathf.Epsilon);
     }
 
     void Flip()
@@ -72,6 +82,17 @@ public class PlayerController : MonoBehaviour
 
         rb.linearVelocity += new Vector2(0, jumpSpeed);
 
+        anim.SetTrigger("isJumping");
     }
+
+
+
+
+
+
+
+
+
+
 }
 
