@@ -13,7 +13,7 @@ public class Paralax : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        mat = GetComponent<SpriteRenderer>().material;
+        mat = GetComponent<Renderer>().material;
         cam = Camera.main.transform;
         initialPos = transform.position;
     }
