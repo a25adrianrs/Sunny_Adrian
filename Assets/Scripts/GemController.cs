@@ -3,6 +3,7 @@ using UnityEngine;
 public class GemController : MonoBehaviour
 {
     [SerializeField] AudioClip gemCollect;
+    [SerializeField] Animator animCollect;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -15,7 +16,7 @@ public class GemController : MonoBehaviour
             AudioSource.PlayClipAtPoint(gemCollect, transform.position);
 
             // Lanzamos la animación de recogida de las gemas
-
+            Instantiate(animCollect, transform.position, Quaternion.identity);
             // Destruimos la gema
             Destroy(gameObject);
         }

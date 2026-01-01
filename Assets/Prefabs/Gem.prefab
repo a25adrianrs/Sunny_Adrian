@@ -164,3 +164,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GemController
   gemCollect: {fileID: 8300000, guid: 235ed03d202a67d4ca83a732218cd214, type: 3}
+  animCollect: {fileID: 549580240037563823, guid: 82ba4056cb16f5947b9d8209f7d06e89, type: 3}
