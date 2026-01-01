@@ -5,13 +5,25 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     [SerializeField] TMP_Text itemsText;
+    [SerializeField] TMP_Text timerText;
+    [SerializeField] int totalSeconds;
+
+    float elapsedTime;
+
 
     void Update()
     {
+        // En cada uno de los frames se incrementara el deltaTime
+        elapsedTime += Time.deltaTime;
+        int secondsLeft = totalSeconds - (int)elapsedTime;
+        if (secondsLeft < 0) secondsLeft = 0;
+        timerText.text = secondsLeft.ToString();
+
+        // Actualizamos el contador de gemas
         int items = GameObject.FindGameObjectsWithTag("Gem").Length;
         itemsText.text = items.ToString();
 
-        if (items == 0)
+        if (items == 0 || secondsLeft == 0)
         {
             Invoke("RestartGame", 1f);
         }

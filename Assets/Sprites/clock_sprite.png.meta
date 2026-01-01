@@ -73,7 +73,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -165,12 +165,12 @@ TextureImporter:
       name: clock_sprite_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 23
-        width: 17
-        height: 21
+        width: 16
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: clock_sprite_1
       rect:
         serializedVersion: 2
-        x: 19
+        x: 20
         y: 23
-        width: 17
-        height: 21
+        width: 16
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: clock_sprite_2
       rect:
         serializedVersion: 2
-        x: 37
+        x: 38
         y: 23
-        width: 17
-        height: 21
+        width: 16
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: clock_sprite_3
       rect:
         serializedVersion: 2
-        x: 55
+        x: 56
         y: 23
-        width: 17
-        height: 21
+        width: 16
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -253,12 +253,12 @@ TextureImporter:
       name: clock_sprite_4
       rect:
         serializedVersion: 2
-        x: 73
+        x: 74
         y: 23
-        width: 17
-        height: 21
+        width: 16
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,12 +275,12 @@ TextureImporter:
       name: clock_sprite_5
       rect:
         serializedVersion: 2
-        x: 91
-        y: 1
-        width: 17
-        height: 43
+        x: 92
+        y: 23
+        width: 16
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -297,12 +297,12 @@ TextureImporter:
       name: clock_sprite_6
       rect:
         serializedVersion: 2
-        x: 109
-        y: 2
-        width: 17
-        height: 42
+        x: 110
+        y: 23
+        width: 16
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: clock_sprite_7
       rect:
         serializedVersion: 2
-        x: 127
+        x: 128
         y: 23
-        width: 17
-        height: 21
+        width: 16
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -343,10 +343,10 @@ TextureImporter:
         serializedVersion: 2
         x: 2
         y: 1
-        width: 15
-        height: 21
+        width: 16
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -363,12 +363,12 @@ TextureImporter:
       name: clock_sprite_9
       rect:
         serializedVersion: 2
-        x: 22
+        x: 20
         y: 1
-        width: 11
-        height: 21
+        width: 16
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -385,12 +385,12 @@ TextureImporter:
       name: clock_sprite_10
       rect:
         serializedVersion: 2
-        x: 37
+        x: 38
         y: 1
-        width: 17
-        height: 21
+        width: 16
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -407,12 +407,12 @@ TextureImporter:
       name: clock_sprite_11
       rect:
         serializedVersion: 2
-        x: 55
+        x: 56
         y: 1
-        width: 17
-        height: 21
+        width: 16
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -429,12 +429,12 @@ TextureImporter:
       name: clock_sprite_12
       rect:
         serializedVersion: 2
-        x: 76
-        y: 3
-        width: 11
-        height: 16
+        x: 74
+        y: 1
+        width: 16
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -447,11 +447,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: clock_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bf22a793b9a8544ae64d2a90dee264
+      internalID: -456084351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f4303ee05fbc9439d711585b723d54
+      internalID: 676042475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 46ee04aa59c7fba42a99d74edb56d8cb
     internalID: 0
     vertices: []
     indices: 
@@ -459,13 +503,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":20.0},"gridSpriteOffset":{"x":2.0,"y":2.0},"gridSpritePadding":{"x":2.0,"y":2.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       clock_sprite_0: -2365681849423671732
       clock_sprite_1: 469673692998502046
       clock_sprite_10: -3156630802235183845
       clock_sprite_11: -5565386581970502423
       clock_sprite_12: -4692411484235686875
+      clock_sprite_13: -456084351
+      clock_sprite_14: 676042475
       clock_sprite_2: -9165847672933304905
       clock_sprite_3: 4601974180643583993
       clock_sprite_4: -6137869189715260601
