@@ -1566,6 +1566,7 @@ GameObject:
   - component: {fileID: 913393878}
   - component: {fileID: 913393877}
   - component: {fileID: 913393879}
+  - component: {fileID: 913393881}
   - component: {fileID: 913393880}
   m_Layer: 10
   m_Name: Player
@@ -1747,6 +1748,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &913393881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913393874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db6203db6feb2644e9eceadb487b904f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteractions
 --- !u!1001 &922192249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2696,7 +2709,7 @@ GameObject:
   - component: {fileID: 1659666512}
   m_Layer: 9
   m_Name: Traps
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
