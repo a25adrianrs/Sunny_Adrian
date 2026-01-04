@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Gem
   - Trap
+  - Bat
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - Player
   - Background
   - Items
-  - 
+  - Enemies
   - 
   - 
   - 
@@ -63,6 +65,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2947089243
+    locked: 0
+  - name: Enemies
+    uniqueID: 2925182297
     locked: 0
   m_RenderingLayers:
   - Default

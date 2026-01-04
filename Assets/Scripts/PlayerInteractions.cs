@@ -24,7 +24,7 @@ public class PlayerInteractions : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         // Si el "Player" colisiona con la "Trampa" se cumple la condición y se lanza la co-rutina
-        if (collision.gameObject.tag == "Trap")
+        if (collision.gameObject.tag == "Trap" || collision.gameObject.tag == "Enemy")
         {
             // Llamamos a la co-rutina que controla las animaciones "die" y "reborn"
             StartCoroutine(DieAndReborn());
